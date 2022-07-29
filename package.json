@@ -1,0 +1,19 @@
+{
+  "name": "beginner-lvl-d3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf ./cache && rm -rf ./development && parcel ./src/index.html --out-dir ./development",
+    "build": "parcel build ./src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^7.1.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
